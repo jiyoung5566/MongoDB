@@ -52,7 +52,7 @@ export default function AddTopicPage({
       <textarea
         className="border border-slate-500 p-4 h-32"
         placeholder="Topic description"
-        value={description}
+        value={newDescription}
         onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) =>
           setNewDescription(e.target.value)
         }
